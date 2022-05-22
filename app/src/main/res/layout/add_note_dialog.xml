@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="30dp"
+    android:layout_height="280dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/closeIc_addNoteD"
+        android:padding="5dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Note *"
+        android:layout_above="@id/tempLinearLayout_addNoteD"
+        android:gravity="top"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/note_edt_noteD"
+        android:layout_below="@id/closeIc_addNoteD"
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tempLinearLayout_addNoteD"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancelBtn_noteD"
+            android:layout_marginEnd="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/add_item_btn_background"
+            android:layout_marginStart="20dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:id="@+id/addBtn_noteD"
+            android:textColor="@color/white"
+            android:background="@drawable/add_item_btn_background"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:id="@+id/linearLayout_showNoteRecV"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_corner_gray_back"
+        android:orientation="horizontal"
+        android:paddingStart="30dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noteTxt_view_showNoteRecView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+            />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox_showNoteRecView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/checkbox_setter"
+            android:checked="false"
+            android:clickable="false"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/editIc_showNoteRecView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_black"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_edit" />
+
+</RelativeLayout>

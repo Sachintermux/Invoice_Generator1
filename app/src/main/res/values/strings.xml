@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Invoice Generator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Company Fragment Data-->
+    <string name="companyHashMapData">COMPANY_HASHMAP_DATA_FRAGMENT</string>
+    <string name="companyName_CompanyF">CompanyName_CompanyF</string>
+    <string name="invoiceType_CompanyF">InvoiceType_CompanyF</string>
+    <string name="companyInfo1_CompanyF">CompanyInfo1_CompanyF</string>
+    <string name="companyInfo2_CompanyF">CompanyInfo2_CompanyF</string>
+
+    <!--    <string name="email_CompanyF">Email_CompanyF</string>-->
+    <!--    <string name="address_CompanyF">Address_CompanyF</string>-->
+    <!--    <string name="city_CompanyF">City_CompanyF</string>-->
+    <!--    <string name="state_CompanyF">State_CompanyF</string>-->
+    <!--    <string name="country_CompanyF">Country_CompanyF</string>-->
+    <!--    <string name="zipCode_CompanyF">ZipCode_CompanyF</string>-->
+    <!--    <string name="webSite_CompanyF">WebSite_CompanyF</string>-->
+
+
+    <string name="listOfCustomer_CustomerFragment">ListOFCustomer_CustomerFragment</string>
+    <string name="listOfProduct_ProductFragment">LISTOF_PRODUCT_PRODUCTFRAGMENT</string>
+    <string name="invoiceNo_CustomerNameF">InvoiceNo_CustomerNameFragment</string>
+    <string name="compState_CustomerNameF">CompState_CustomerNameFragment</string>
+    <string name="noteList_noteFragment">NOTELIST_NOTE_FRAGMENT</string>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Preview_Fragment"
+    android:background="@color/gray">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="Make\npdf"
+        android:background="@drawable/generate_pdf_btn_desing"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="36dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:padding="3dp"
+        android:id="@+id/generatePdfBtn_previewFragment"
+        tools:ignore="SmallSp" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfViewer_previewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="top"
+        android:foregroundGravity="top"
+        android:layout_alignParentTop="true"
+        />
+
+</RelativeLayout>

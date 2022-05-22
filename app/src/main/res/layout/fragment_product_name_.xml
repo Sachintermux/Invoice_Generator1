@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_showProductList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:layout_above="@id/tempLinearLayout_productF" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tempLinearLayout_productF"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="add Columns"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/addColumn_btn_ProductF"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/add_item_btn_background"
+            android:textColor="@color/white"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="add Item"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/addItem_btn_ProductF"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/add_item_btn_background"
+            android:textColor="@color/white"
+            />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

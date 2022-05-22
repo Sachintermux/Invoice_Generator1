@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/add_item_btn_background.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/generate_pdf_btn_desing.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_addCustomer_floatingBtn_backGround.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_checked_check_box_icon.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_close.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_edit.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_email.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_http.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_location.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_person.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_person_add.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/ic_unchecked_checkbox.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_black.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_black.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_black_back.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_gray_back.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/test.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/activity_main.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/activity_make_quotation.xml" value="0.33" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/activity_pdf_render.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/activity_show_final_pdf.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_customer_dialog.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_item_columns_dialog.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_note_dialog.xml" value="0.25" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_product_dialog.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_company_.xml" value="0.33" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_customer_name.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_customer_name_.xml" value="1.6394557823129252" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_note_.xml" value="0.33" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_preview_.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_product_name_.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/showcustomer_recyclerview.xml" value="0.33" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/shownote_recyclerview.xml" value="0.33" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/showpreviouslistquotation_recyclerview.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/showproduct_recyclerview.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/signature_pad_dialog.xml" value="0.34010416666666665" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/signatureclick_dialog.xml" value="0.34010416666666665" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/simpledelete_dialog.xml" value="0.34427083333333336" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/mipmap-anydpi-v26/ic_addCustomer_floatingBtn_round.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/mipmap-anydpi-v26/ic_company_name.xml" value="0.264" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/mipmap-anydpi-v26/ic_company_name_round.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.182" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/xml/provider_paths.xml" value="0.1734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

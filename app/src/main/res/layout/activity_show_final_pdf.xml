@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".activitys.ShowFinalPdf_Activity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sharePdfBtn_showFinalPdfA"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="36dp"
+        android:background="@drawable/generate_pdf_btn_desing"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Share\nPdf"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        tools:ignore="SmallSp" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfViewer_showFinalPdfA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:foregroundGravity="top"
+        android:gravity="top" />
+
+</RelativeLayout>

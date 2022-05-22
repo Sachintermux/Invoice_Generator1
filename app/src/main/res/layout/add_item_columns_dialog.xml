@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <CheckBox
+        android:id="@+id/itemDescriptionCheckBox_addItemColumnsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:button="@drawable/checkbox_setter"
+        android:checked="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="   Item Desciption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/discount_addItemColumnsD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:button="@drawable/checkbox_setter"
+        android:text="   Discount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/unitPrice_addItemColumnsD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:button="@drawable/checkbox_setter"
+        android:checked="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="   Unit Price"
+        app:layout_constraintStart_toStartOf="@+id/itemDescriptionCheckBox_addItemColumnsD"
+        app:layout_constraintTop_toBottomOf="@+id/itemDescriptionCheckBox_addItemColumnsD" />
+
+    <CheckBox
+        android:id="@+id/taxCheckBox_addItemColumnsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox_setter"
+        android:text="   Tax"
+        app:layout_constraintStart_toStartOf="@+id/discount_addItemColumnsD"
+        app:layout_constraintTop_toBottomOf="@+id/discount_addItemColumnsD" />
+
+    <CheckBox
+        android:id="@+id/quantityCheckBox_addItemColumnsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:button="@drawable/checkbox_setter"
+        android:checked="true"
+        android:clickable="false"
+        android:text="   Quantity"
+        app:layout_constraintStart_toStartOf="@+id/unitPrice_addItemColumnsD"
+        app:layout_constraintTop_toBottomOf="@+id/unitPrice_addItemColumnsD" />
+
+    <CheckBox
+        android:id="@+id/itemCodeCheckBox_addItemColumnsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox_setter"
+        android:text="   Item Code"
+        app:layout_constraintStart_toStartOf="@+id/taxCheckBox_addItemColumnsD"
+        app:layout_constraintTop_toBottomOf="@+id/taxCheckBox_addItemColumnsD" />
+
+    <CheckBox
+        android:id="@+id/amount_addItemColumnsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox_setter"
+        android:checked="true"
+        android:clickable="false"
+        android:text="   Amount"
+        app:layout_constraintStart_toStartOf="@+id/quantityCheckBox_addItemColumnsD"
+        app:layout_constraintTop_toBottomOf="@+id/quantityCheckBox_addItemColumnsD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amount_addItemColumnsD">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/closeBtn_addItemColumnsD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/add_item_btn_background"
+            android:text="close"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/apply_addItemColumnsD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/add_item_btn_background"
+            android:text="Apply"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

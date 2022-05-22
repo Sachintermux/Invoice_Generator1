@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.Make_Quotation">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_InvoiceGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="center"
+        app:tabTextColor="@color/white"
+        android:background="@color/black"
+        app:tabSelectedTextColor="@color/teal_200"
+        app:tabRippleColor="@color/design_default_color_error"
+        app:tabIndicatorColor="@color/teal_200"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorAnimationDuration="@integer/material_motion_duration_medium_1"
+        app:tabIndicatorGravity="bottom"
+        app:tabMode="scrollable">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preview" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager_InvoiceGenerator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabLayout_InvoiceGenerate"
+        android:layout_alignParentBottom="true"
+        android:isScrollContainer="true"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal" />
+
+
+</RelativeLayout>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Company_Fragment"
+    android:background="@color/gray">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/gray"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/round_corner_black"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/signature_imgView_companyF"
+                        android:src="@drawable/ic_close"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signature"
+                android:layout_gravity="top"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/helvetica_medium"
+                android:layout_marginBottom="20dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--                <ImageView-->
+                <!--                    android:layout_width="48dp"-->
+                <!--                    android:layout_height="48dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:scaleX="0.7"-->
+                <!--                    android:scaleY="0.7"-->
+                <!--                    android:src="@mipmap/ic_company_name" />-->
+
+                <EditText
+                    android:id="@+id/companyName_edt_CompanyT"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="Company Name"
+                    android:inputType="textPostalAddress"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--                <ImageView-->
+                <!--                    android:layout_width="48dp"-->
+                <!--                    android:layout_height="48dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:scaleX="0.7"-->
+                <!--                    android:scaleY="0.7"-->
+                <!--                    android:src="@drawable/ic_person" />-->
+
+                <EditText
+                    android:id="@+id/invoiceType_edt_CompanyT"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="*Invoice* Type"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--                <ImageView-->
+                <!--                    android:layout_width="48dp"-->
+                <!--                    android:layout_height="48dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:scaleX="0.7"-->
+                <!--                    android:scaleY="0.7"-->
+                <!--                    android:src="@drawable/ic_person" />-->
+
+                <EditText
+                    android:id="@+id/companyInfo1_edt_CompanyT"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:singleLine="true"
+                    android:hint="Company *Info 1*"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--                <ImageView-->
+                <!--                    android:layout_width="48dp"-->
+                <!--                    android:layout_height="48dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:scaleX="0.7"-->
+                <!--                    android:scaleY="0.7"-->
+                <!--                    android:src="@drawable/ic_person" />-->
+
+                <EditText
+                    android:id="@+id/companyInfo2_edt_CompanyT"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:singleLine="true"
+                    android:hint="Company *Info 2*"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:foregroundGravity="center_vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/email_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="Email *"-->
+<!--                    android:inputType="textEmailAddress"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/address_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="Address *"-->
+<!--                    android:inputType="textPostalAddress"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/city_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="City"-->
+<!--                    android:inputType="textPostalAddress"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/state_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="State"-->
+<!--                    android:inputType="textPostalAddress"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/country_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="Country"-->
+<!--                    android:inputType="textPostalAddress"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/zipCode_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="Zip Code"-->
+<!--                    android:inputType="numberSigned"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/round_corner_black"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_width="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleX="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:scaleY="0.7"&ndash;&gt;-->
+<!--                &lt;!&ndash;                    android:src="@drawable/ic_person" />&ndash;&gt;-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/website_edt_CompanyT"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="36dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="Website"-->
+<!--                    android:inputType="textWebEmailAddress"-->
+<!--                    android:paddingLeft="@dimen/editTextLeftPadding"-->
+<!--                    android:paddingRight="@dimen/editTextLeftPadding"-->
+<!--                    android:textSize="@dimen/editTextSize_CompanyT" />-->
+
+<!--            </LinearLayout>-->
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updateDetail_btn_CompanyT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner_black_back"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="update detail"
+                android:textColor="@color/white"
+                android:textSize="@dimen/editTextSize_CompanyT" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

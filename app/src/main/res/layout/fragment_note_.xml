@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Note_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corner_black"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/tempLinearLayout_addNoteFragment"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/receivedAmount_edt_addNoteFragment"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:autofillHints="name"
+            android:background="@null"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Received Amount"
+            android:inputType="numberDecimal"
+            android:paddingLeft="@dimen/editTextLeftPadding"
+            android:paddingRight="@dimen/editTextLeftPadding"
+            android:textSize="@dimen/editTextSize_CompanyT" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_showNoteList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@id/tempLinearLayout_addNoteFragment"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="Add\nNote"
+        android:background="@drawable/generate_pdf_btn_desing"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="36dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:padding="3dp"
+        android:id="@+id/addNoteBtn_NoteFragment"
+        tools:ignore="SmallSp" />
+
+
+</RelativeLayout>
