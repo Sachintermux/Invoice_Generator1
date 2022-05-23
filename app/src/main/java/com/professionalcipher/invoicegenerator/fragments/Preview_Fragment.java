@@ -178,16 +178,16 @@ public class Preview_Fragment extends Fragment {
         try {
             file = createPdfFormIText();
 
-            pdfView.fromFile(file).pages(0, 1)
+            pdfView.fromFile(file)
                     .enableSwipe(true)
                     .swipeHorizontal(false)
                     .enableDoubletap(true)
                     .defaultPage(0)
                     .enableAnnotationRendering(false)
                     .password(null)
-                    .scrollHandle(null)
                     .enableAntialiasing(true)
                     .spacing(0)
+                    .enableDoubletap(true)
                     .load();
 
         } catch (NullPointerException e) {
@@ -270,8 +270,8 @@ public class Preview_Fragment extends Fragment {
             byte[] byteArray = stream.toByteArray();
             ImageData imageData = ImageDataFactory.createJpeg(byteArray);
             img = new Image(imageData);
-            img.setHeight(100);
-            img.setMargins(2, 50, 0, 0);
+            img.setHeight(50);
+            img.setMargins(0, 80, 0, 0);
             img.setHorizontalAlignment(HorizontalAlignment.RIGHT);
             document.add(img);
         } catch (Exception e) {

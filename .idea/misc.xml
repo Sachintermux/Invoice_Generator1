@@ -22,6 +22,7 @@
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_black.xml" value="0.264" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_black_back.xml" value="0.264" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_gray_back.xml" value="0.2645" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/round_corner_sykcolor_back.xml" value="0.2205" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/drawable/test.xml" value="0.2645" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/activity_main.xml" value="0.34427083333333336" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/activity_make_quotation.xml" value="0.33" />
@@ -31,7 +32,7 @@
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_item_columns_dialog.xml" value="0.34427083333333336" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_note_dialog.xml" value="0.25" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/add_product_dialog.xml" value="0.34427083333333336" />
-        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_company_.xml" value="0.33" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_company_.xml" value="0.42888165038002174" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_customer_name.xml" value="0.34427083333333336" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_customer_name_.xml" value="1.6394557823129252" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/fragment_note_.xml" value="0.33" />
@@ -42,7 +43,7 @@
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/showpreviouslistquotation_recyclerview.xml" value="0.34427083333333336" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/showproduct_recyclerview.xml" value="0.34427083333333336" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/signature_pad_dialog.xml" value="0.34010416666666665" />
-        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/signatureclick_dialog.xml" value="0.34010416666666665" />
+        <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/signatureclick_dialog.xml" value="0.5" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/layout/simpledelete_dialog.xml" value="0.34427083333333336" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/mipmap-anydpi-v26/ic_addCustomer_floatingBtn_round.xml" value="0.264" />
         <entry key="..\:/Apps/Professional Cipher/Invoice Generator/app/src/main/res/mipmap-anydpi-v26/ic_company_name.xml" value="0.264" />

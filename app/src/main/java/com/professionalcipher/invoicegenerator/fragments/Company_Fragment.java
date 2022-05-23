@@ -6,6 +6,8 @@ import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -83,6 +85,7 @@ public class Company_Fragment extends Fragment {
 
         signatureImgV = view.findViewById(R.id.signature_imgView_companyF);
         //Button
+
         updateDetail_btn = view.findViewById(R.id.updateDetail_btn_CompanyT);
 
         view_model = new ViewModelProvider(requireActivity()).get(MakeQuotationView_Model.class);
@@ -171,10 +174,13 @@ public class Company_Fragment extends Fragment {
 
             signatureImgV.setImageBitmap(signaturePad1.getSignatureBitmap());
            Bitmap bitmap = signaturePad1.getSignatureBitmap();
+           File file = new File(Environment.getExternalStorageDirectory().toString() + "/Invoice Generator/temp");
+           if(!file.exists()) file.mkdirs();
             try (FileOutputStream out = new FileOutputStream(Environment.getExternalStorageDirectory().toString() + "/Invoice Generator/temp/signature.png")) {
                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, out); // bmp is your Bitmap instance
             } catch (IOException e) {
                 e.printStackTrace();
+                Toast.makeText(requireContext(),"Signature Pad Save : " +e,Toast.LENGTH_SHORT).show();
             }
             Uri uri = Uri.parse(Environment.getExternalStorageDirectory().toString() + "/Invoice Generator/temp/signature.png");
             signatureUri = uri;

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.Company_Fragment"
-    android:background="@color/gray">
+    android:background="@color/white">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,23 +27,16 @@
                 android:gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardCornerRadius="10dp"
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="true"
-                    >
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:background="@drawable/round_corner_black"
                         android:scaleType="centerCrop"
                         android:id="@+id/signature_imgView_companyF"
-                        android:src="@drawable/ic_close"/>
+                        android:src="@drawable/ic_close"
+                      />
 
-                </androidx.cardview.widget.CardView>
+
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -56,8 +49,8 @@
                 android:gravity="center_horizontal"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:fontFamily="@font/helvetica_medium"
-                android:layout_marginBottom="20dp"/>
+                android:fontFamily="serif"
+                android:layout_marginBottom="15dp"/>
 
 
             <LinearLayout
@@ -82,7 +75,8 @@
                     android:layout_height="36dp"
                     android:background="@null"
                     android:ems="10"
-                    android:hint="Company Name"
+                    android:text="Company *Name*"
+                    android:hint="Company *Name*"
                     android:inputType="textPostalAddress"
                     android:paddingLeft="@dimen/editTextLeftPadding"
                     android:paddingRight="@dimen/editTextLeftPadding"
@@ -113,6 +107,7 @@
                     android:layout_height="36dp"
                     android:background="@null"
                     android:ems="10"
+                    android:text="*Invoice* Type"
                     android:hint="*Invoice* Type"
                     android:inputType="textPersonName"
                     android:paddingLeft="@dimen/editTextLeftPadding"
@@ -145,6 +140,7 @@
                     android:background="@null"
                     android:ems="10"
                     android:singleLine="true"
+                    android:text="Company *Info 1*"
                     android:hint="Company *Info 1*"
                     android:paddingLeft="@dimen/editTextLeftPadding"
                     android:paddingRight="@dimen/editTextLeftPadding"
@@ -176,6 +172,7 @@
                     android:background="@null"
                     android:ems="10"
                     android:singleLine="true"
+                    android:text="Company *Info 2*"
                     android:hint="Company *Info 2*"
                     android:inputType="text"
                     android:paddingLeft="@dimen/editTextLeftPadding"

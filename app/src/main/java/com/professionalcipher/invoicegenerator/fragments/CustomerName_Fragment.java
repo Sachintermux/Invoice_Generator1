@@ -117,7 +117,7 @@ public class CustomerName_Fragment extends Fragment implements CustomerShow_Recy
         Dialog dialog = new Dialog(requireActivity());
         dialog.setContentView(R.layout.add_customer_dialog);
 
-
+        dialog.setCancelable(false);
         initViewDialog(dialog);
 
         closeIc_dialog.setOnClickListener(view1 -> dialog.cancel());

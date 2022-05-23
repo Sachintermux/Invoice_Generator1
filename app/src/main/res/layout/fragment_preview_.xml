@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.Preview_Fragment"
-    android:background="@color/gray">
+    android:background="@color/white">
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="62dp"

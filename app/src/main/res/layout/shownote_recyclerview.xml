@@ -43,7 +43,6 @@
             android:layout_gravity="center"
             android:button="@drawable/checkbox_setter"
             android:checked="false"
-            android:clickable="false"
             android:gravity="center" />
 
 

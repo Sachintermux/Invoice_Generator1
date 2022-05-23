@@ -42,7 +42,7 @@ public class NoteShow_RecyclerViewAdapter extends RecyclerView.Adapter<NoteShow_
     public void onBindViewHolder( @NonNull NoteShow_RecyclerViewAdapter.viewHolder holder, int position ) {
         holder.noteTxt_view.setText(Html.fromHtml(textMaker(notes.get(position))));
         holder.noteCheckBox.setOnClickListener(view -> {
-            if (holder.noteCheckBox.isChecked()) {
+            if (!holder.noteCheckBox.isChecked()) {
                 view_model.setCurrentSelectedNote_Position(-1);
             } else view_model.setCurrentSelectedNote_Position(position);
             notifyDataSetChanged();
