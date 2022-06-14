@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.professionalcipher.invoicegenerator">
+    package="com.professionalcipher.invoice">
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission
@@ -25,16 +25,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InvoiceGenerator">
         <activity
-            android:name=".activitys.ShowFinalPdf_Activity"
+            android:name="com.professionalcipher.invoice.activitys.ShowFinalPdf_Activity"
             android:exported="false"
-            android:parentActivityName=".activitys.MainActivity" />
+            android:parentActivityName="com.professionalcipher.invoice.activitys.MainActivity" />
         <activity
-            android:name=".activitys.Make_Quotation"
+            android:name="com.professionalcipher.invoice.activitys.Make_Quotation"
             android:exported="false"
             android:label="Make Quotation"
-            android:parentActivityName=".activitys.MainActivity" />
+            android:parentActivityName="com.professionalcipher.invoice.activitys.MainActivity" />
         <activity
-            android:name=".activitys.MainActivity"
+            android:name="com.professionalcipher.invoice.activitys.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
