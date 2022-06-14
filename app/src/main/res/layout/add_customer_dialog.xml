@@ -2,313 +2,237 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <!--D mins dialog-->
+    android:layout_height="match_parent"
+    android:background="@drawable/round_corner_white_back">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:paddingBottom="20dp"
-        android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Customer Info"
-                android:textColor="@color/black"
-                android:textSize="25sp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/closeIc_addCustomerD"
-                android:layout_width="wrap_content"
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Customer Info"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/closeIc_addCustomerD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_close"
+                    app:tint="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_close"
-                app:tint="@color/black" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/customerName_edt_addCustomerD"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*Customer Name:* "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <EditText
-                android:id="@+id/customerName_edt_addCustomerD"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:ems="10"
-                android:text="*Customer Name:* "
-                android:inputType="textPersonName"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
-
-<!--                            <ImageView-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:layout_gravity="center"-->
-<!--                                android:layout_marginRight="10dp"-->
-<!--                                app:tint="@color/black"-->
-<!--                                android:id="@+id/contactIc_addCustomerD"-->
-<!--                                android:src="@drawable/ic_baseline_contacts_24" />-->
-
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@mipmap/ic_company_name" />-->
-
-            <EditText
-                android:id="@+id/address_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:ems="10"
-                android:text="*Address:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
-        </LinearLayout>
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
+                <EditText
+                    android:id="@+id/address_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*Address:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@drawable/ic_person" />-->
-
-            <EditText
-                android:id="@+id/gstIn_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:ems="10"
-                android:text="*GSTIN:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/gstIn_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*GSTIN:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_corner_black"
-            android:foregroundGravity="center_vertical"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@drawable/ic_person" />-->
-
-            <EditText
-                android:id="@+id/state_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:ems="10"
-                android:text="*State:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:foregroundGravity="center_vertical"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/state_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*State:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@drawable/ic_person" />-->
-
-            <EditText
-                android:id="@+id/invoiceNo_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:ems="10"
-                android:text="*Invoice No.:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/invoiceNo_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*Invoice No.:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@drawable/ic_person" />-->
-
-            <EditText
-                android:id="@+id/invoiceDate_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:ems="10"
-                android:text="*Invoice Date:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/invoiceDate_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*Invoice Date:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@drawable/ic_person" />-->
-
-            <EditText
-                android:id="@+id/stateCompany_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:text="*State:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/stateCompany_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*State:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_corner_black"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <!--                <ImageView-->
-            <!--                    android:layout_width="48dp"-->
-            <!--                    android:layout_height="48dp"-->
-            <!--                    android:layout_gravity="center"-->
-            <!--                    android:scaleX="0.7"-->
-            <!--                    android:scaleY="0.7"-->
-            <!--                    android:src="@drawable/ic_person" />-->
-
-            <EditText
-                android:id="@+id/codeNo_edt_addCustomerD"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@null"
-                android:text="*Code No.:*"
-                android:inputType="text"
-                android:paddingLeft="@dimen/editTextLeftPadding"
-                android:paddingRight="@dimen/editTextLeftPadding"
-                android:textSize="@dimen/editTextSize_CompanyT" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_black"
+                android:gravity="center"
+                android:orientation="horizontal">
 
+                <EditText
+                    android:id="@+id/codeNo_edt_addCustomerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/editTextLeftPadding"
+                    android:paddingRight="@dimen/editTextLeftPadding"
+                    android:text="*Code No.:*"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/editTextSize_CompanyT" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addCustomer_Btn_addCustomerD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner_black_back"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Add Customer"
+                android:textColor="@color/white" />
         </LinearLayout>
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Add Customer"
-            android:background="@drawable/round_corner_black_back"
-            android:textColor="@color/white"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:layout_marginTop="20dp"
-            android:id="@+id/addCustomer_Btn_addCustomerD"
-            />
-
-    </LinearLayout>
-
-
     </ScrollView>
-
 </RelativeLayout>

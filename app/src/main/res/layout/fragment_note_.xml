@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".fragments.Note_Fragment">
 
     <LinearLayout
@@ -24,9 +25,10 @@
             android:autofillHints="name"
             android:background="@null"
             android:ems="10"
-            android:textColor="@color/black"
             android:hint="Received Amount"
             android:inputType="numberDecimal"
+            android:textColorHint="@color/gray_dark"
+            android:textColor="@color/black"
             android:paddingLeft="@dimen/editTextLeftPadding"
             android:paddingRight="@dimen/editTextLeftPadding"
             android:textSize="@dimen/editTextSize_CompanyT" />

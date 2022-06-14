@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
+    android:background="@color/white"
     android:id="@+id/relativeLayout_showCustomerRecView">
 
     <LinearLayout
@@ -40,6 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
+                android:textColor="@color/gray_dark"
                 android:layout_marginBottom="2dp"
                 android:text="Company :- " />
 
@@ -47,7 +49,8 @@
                 android:id="@+id/mobileNo_txt_showCustomerRecView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:singleLine="true"
+                android:singleLine="true"                android:textColor="@color/gray_dark"
+
                 android:layout_marginBottom="2dp"
                 android:text="Mobile :- " />
 
@@ -55,7 +58,8 @@
                 android:id="@+id/email_txt_showCustomerRecView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Email :-"
+                android:text="Email :-"                android:textColor="@color/gray_dark"
+
                 android:layout_marginBottom="2dp"
                 android:singleLine="true"/>
 
@@ -64,7 +68,8 @@
                 android:id="@+id/address_txt_showCustomerRecView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text=""                android:textColor="@color/gray_dark"
+
                 android:layout_marginBottom="2dp"
                 android:singleLine="true"/>
 

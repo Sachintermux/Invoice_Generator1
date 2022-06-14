@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.professionalcipher.invoicegenerator"
+        applicationId "com.professionalcipher.invoice"
         minSdk 21
         targetSdk 32
         versionCode 1

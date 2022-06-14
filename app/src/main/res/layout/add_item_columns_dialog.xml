@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="260dp"
+    android:layout_width="300dp"
     android:layout_height="wrap_content"
-    android:layout_margin="20dp"
-    android:background="@color/white"
+    android:padding="20dp"
+    android:background="@drawable/round_corner_white_back"
     android:orientation="vertical">
-
 
     <CheckBox
         android:id="@+id/itemDescriptionCheckBox_addItemColumnsD"
@@ -17,6 +16,7 @@
         android:checked="true"
         android:clickable="false"
         android:gravity="center"
+        android:textColor="@color/black"
         android:text="   Item Desciption"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +28,8 @@
         android:layout_marginEnd="16dp"
         android:layout_weight="1"
         android:button="@drawable/checkbox_setter"
-        android:text="   Discount"
+        android:text="   Discount"        android:textColor="@color/black"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +42,8 @@
         android:button="@drawable/checkbox_setter"
         android:checked="true"
         android:clickable="false"
-        android:gravity="center"
+        android:gravity="center"        android:textColor="@color/black"
+
         android:text="   Unit Price"
         app:layout_constraintStart_toStartOf="@+id/itemDescriptionCheckBox_addItemColumnsD"
         app:layout_constraintTop_toBottomOf="@+id/itemDescriptionCheckBox_addItemColumnsD" />
@@ -51,7 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:button="@drawable/checkbox_setter"
-        android:text="   Tax"
+        android:text="   Tax"        android:textColor="@color/black"
+
         app:layout_constraintStart_toStartOf="@+id/discount_addItemColumnsD"
         app:layout_constraintTop_toBottomOf="@+id/discount_addItemColumnsD" />
 
@@ -62,7 +65,8 @@
         android:layout_gravity="center"
         android:button="@drawable/checkbox_setter"
         android:checked="true"
-        android:clickable="false"
+        android:clickable="false"        android:textColor="@color/black"
+
         android:text="   Quantity"
         app:layout_constraintStart_toStartOf="@+id/unitPrice_addItemColumnsD"
         app:layout_constraintTop_toBottomOf="@+id/unitPrice_addItemColumnsD" />
@@ -72,7 +76,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:button="@drawable/checkbox_setter"
-        android:text="   Item Code"
+        android:text="   Item Code"        android:textColor="@color/black"
+
         app:layout_constraintStart_toStartOf="@+id/taxCheckBox_addItemColumnsD"
         app:layout_constraintTop_toBottomOf="@+id/taxCheckBox_addItemColumnsD" />
 
@@ -81,7 +86,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:button="@drawable/checkbox_setter"
-        android:checked="true"
+        android:checked="true"        android:textColor="@color/black"
+
         android:clickable="false"
         android:text="   Amount"
         app:layout_constraintStart_toStartOf="@+id/quantityCheckBox_addItemColumnsD"
@@ -92,6 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:orientation="horizontal"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

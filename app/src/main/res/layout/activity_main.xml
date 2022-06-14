@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".activitys.MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -29,6 +30,7 @@
             android:text="List Of Quotations"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="@color/gray_dark"
             android:typeface="monospace" />
 
         <androidx.recyclerview.widget.RecyclerView
